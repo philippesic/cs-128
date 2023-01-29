@@ -1,0 +1,22 @@
+{
+  "name": "cs128",
+  "version": "1.0.0",
+  "description": "Philip Pesic's Cs128 Mobile Web App Development",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philippesic/philippesic.github.io.git"
+  },
+  "author": "Philip Pesic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philippesic/philippesic.github.io/issues"
+  },
+  "homepage": "https://github.com/philippesic/philippesic.github.io#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
