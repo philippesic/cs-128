@@ -18,5 +18,8 @@
   "homepage": "https://github.com/philippesic/philippesic.github.io#readme",
   "devDependencies": {
     "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.3"
   }
 }
