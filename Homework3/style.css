@@ -54,7 +54,9 @@ ul.navigation li a:hover {
 		
 .float-left {
 	float:left;	
-	margin:0 10px 10px 0;
+	margin:0 3% 3% 0;
+	width: 37%;
+	height: auto;
 }
 
 .clear {
