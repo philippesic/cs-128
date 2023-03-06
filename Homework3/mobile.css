@@ -8,13 +8,13 @@
         margin-right: auto;
         margin-top: auto;
         margin-bottom: auto;
-        max-width: 900px;
+        max-width: 100vw;
     }  
     
     div#header{
         grid-row: 1;
         grid-column: 1;
-        max-width: 900px;
+        max-width: 100vw;
         background-color:#333;
         background-image:url(images/headerbkgd.png);
         background-repeat:no-repeat;
@@ -30,14 +30,14 @@
     }
 
     div.sidebar-left{
-        max-width: 300px;
+        max-width: 100vw;
         grid-row: 2;
         grid-column: 1;
         padding: 10px;
     }
 
     div.col-right{
-        max-width: 600px;
+        max-width: 100vw;
         grid-row: 3;
         grid-column: 1;
         padding: 10px;
@@ -50,6 +50,6 @@
         text-align: center;
         grid-row: 4;
         grid-column: 1;
-        max-width: 900px;
+        max-width: 100vw;
     }
 }
