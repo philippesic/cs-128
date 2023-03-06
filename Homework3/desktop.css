@@ -8,7 +8,6 @@
     div#header{
         grid-row: 1;
         grid-column: 1/ span 3;
-        max-width: 900px;
     }
 
     div.col-right{
@@ -26,6 +25,5 @@
     div#footer{
         grid-row: 3;
         grid-column: 1/ span 3;
-        max-width: 900px;
     }
 }

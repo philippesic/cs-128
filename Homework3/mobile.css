@@ -23,4 +23,8 @@
         grid-row: 4;
         grid-column: 1;
     }
+
+    div.sidebar-left a {
+        color:#445e64;
+    }
 }

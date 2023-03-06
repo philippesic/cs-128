@@ -3,6 +3,7 @@
       div.sidebar-left a {
         display: inline-block;
         white-space: nowrap;
+        color: rgb(50, 101, 145);
       }
       
       @keyframes bob {
@@ -23,7 +24,7 @@
       div.sidebar-left a:hover {
         animation: bob 1s ease-in-out infinite;
         text-decoration: none;
-        color: rgb(93, 138, 178);
+        color: rgb(94, 140, 180);
       }
       
 
