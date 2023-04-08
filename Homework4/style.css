@@ -1,0 +1,72 @@
+:root {
+    background-color: white;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.contactInfo, div.form {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div.content {
+    margin-top: 40px;  
+    margin-bottom: 0px;
+}
+/* Set navbar properties */
+.navbar {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #333; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Style the links */
+  .navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .navbar .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar .nav-links a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  
+  div#accordion {
+    margin-top: 0px;
+  }
+
+div.content {
+    padding: 10px;
+}
+
+.image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+  }
+  
+img {
+    margin-left: 40px;
+}
