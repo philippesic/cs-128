@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px) {
+    div.content {
+        margin-top: 60px;
+    }
+
+    .image-wrapper p {
+        width: 90%;
+    }
+  }
+  

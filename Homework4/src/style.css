@@ -1,7 +1,3 @@
-:root {
-    background-color: white;
-}
-
 body {
     font-family:'Times New Roman', Times, serif;
     max-width: 900px;
@@ -16,9 +12,8 @@ div.contactInfo, div.form {
 
 div.content {
     margin-top: 40px;  
-    margin-bottom: 0px;
 }
-/* Set navbar properties */
+
 .navbar {
     max-width: 900px;
     margin: 0 auto;
@@ -28,13 +23,14 @@ div.content {
     width: 100%;
   }
   
-  /* Style the links */
+ 
   .navbar .nav-links {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .navbar .nav-links li {
@@ -53,7 +49,7 @@ div.content {
   
   
   div#accordion {
-    margin-top: 0px;
+    margin-bottom: 300px;
   }
 
 div.content {
@@ -62,11 +58,21 @@ div.content {
 
 .image-wrapper {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 40%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
   }
   
-img {
-    margin-left: 40px;
+.image-wrapper p {
+    width: 60%;
+    padding: 10px;
+}
+
+div#map {
+    height: 540px;
+}
+
+.wurfl {
+    margin-top: 30px;
+    margin-right: 5px;
 }
