@@ -1,0 +1,42 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    padding: 0 15px 0 15px;
+    line-height: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin: 3vh 20px 0 20px;
+    text-align: center;
+}
+
+.btn-group {
+    margin: 20px;
+}
+.card {
+    margin: 10vh 30px 5vh 30px;
+    background-color: white;
+    width: 900px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.background-blue {
+    background-image: url('../img/lightblue.jpg');
+}
+.background-gold {
+    background-image: url('../img/lightgold.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-white {
+    background-color: white;
+}
+
+.content {
+    padding: 25px;
+}
