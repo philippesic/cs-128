@@ -1,42 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="serviceworker" href="./service-worker.js">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="main.js"></script>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>React Native</title>
-</head>
-<body class="react">
+  <link rel="serviceworker" href="./service-worker.js" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="main.js"></script>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>React Native</title>
+
+  <body class="react">
     <div class="container">
-      
+      <img
+        class="img-container"
+        id="react-img"
+        src="./img/react_logo.png"
+        alt="React Native Icon"
+      />
 
+      <div class="content">
+        <p>
+          React Native uses native components and APIs, resulting in better
+          performance and responsiveness compared to hybrid app frameworks like
+          Cordova.
+        </p>
+        <p>
+          React Native has a large and active community of developers, with many
+          resources, third-party libraries, and plugins available to extend its
+          capabilities.
+        </p>
 
-        <img class="img-container" id="react-img" src="./img/react_logo.png" alt="React Native Icon">
+        <div class="divider"></div>
 
+        <p>
+          React Native requires developers to learn new concepts and tools,
+          including the React framework and JSX syntax, which can make it
+          challenging to get started with.
+        </p>
+        <p>
+          While React Native provides access to many native components and APIs,
+          there may be cases where developers need to access more complex or
+          platform-specific features that are not supported out of the box.
+        </p>
 
-    <div class="content">
+        <ul class="links">
+          <li>
+            <a
+              href="https://reactnative.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >React Native</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://reactnative.directory/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Plugin Directory</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://reactnative.dev/docs/getting-started"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Documentation</a
+            >
+          </li>
+        </ul>
 
-
-<p>React Native uses native components and APIs, resulting in better performance and responsiveness compared to hybrid app frameworks like Cordova.</p>
-<p>React Native has a large and active community of developers, with many resources, third-party libraries, and plugins available to extend its capabilities.</p>
-
-<div class="divider"></div>
-
-    <p>React Native requires developers to learn new concepts and tools, including the React framework and JSX syntax, which can make it challenging to get started with.</p>
-    <p>While React Native provides access to many native components and APIs, there may be cases where developers need to access more complex or platform-specific features that are not supported out of the box.</p>
-
-    <ul class="links">
-        <li><a href="https://reactnative.dev/" target="_blank" rel="noopener noreferrer">React Native</a></li>
-        <li><a href="https://reactnative.directory/" target="_blank" rel="noopener noreferrer">Plugin Directory</a></li>
-        <li><a href="https://reactnative.dev/docs/getting-started" target="_blank" rel="noopener noreferrer">Documentation</a></li>
-    </ul>
-
-    <div id="selector"> <a href="./Flutter.html">></a></div>
-</div>
-</div>
-</div>
-</body>
+        <div id="selector"><a href="./Flutter.html">></a></div>
+      </div>
+    </div>
+  </body>
 </html>
