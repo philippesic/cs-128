@@ -1,18 +1,30 @@
+body::-webkit-scrollbar{
+    display: none;
+  }
+
 html {
     scrollbar-width: none;
 }
-
+/* scrollbar disabled twice for multi-browser coverage */
 body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     display: flex;
-    flex-wrap: wrap;
+
     justify-content: center;
     align-items: center;
     margin: 0, auto;
     margin-top: 1em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
 }
 
 .flutter {
@@ -76,4 +88,12 @@ div#selector :hover{
 img#react-img {
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 10px 20px;
+}
+
+div#selector a{
+    max-width: 900px;
+    color: white;
+    font-weight: 300;
+    font-size: 2em;
+    text-decoration: none;
 }
